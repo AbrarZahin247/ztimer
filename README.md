@@ -1,4 +1,4 @@
-#ztimer
+# ztimer
 
 this timer in written in vanila javscript;
 
