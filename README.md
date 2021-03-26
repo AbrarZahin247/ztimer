@@ -1,13 +1,16 @@
+
 # Ztimer
 
-this timer in written in vanila javscript;
+##### A simple Timer/StopWatch written in vanila javscript
+
+
+Just download/clone the repository and add any of the following file in project directory
+
+> ztimer.js / ztimer.min.js 
 
 ---
 
-
-
-1. > ##### Just Download or clone the current repository in the project directory
-2. > ##### File Architechture
+1. > ##### File Architechture
     * ztimer
         - ztimer.js
         - ztimer.min.js
@@ -15,7 +18,7 @@ this timer in written in vanila javscript;
 ---
 
 3. > ##### Example 
-```
+``` 
 <html>
     <body>
         <div id="ztimer"><div>
