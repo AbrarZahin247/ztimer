@@ -1,6 +1,6 @@
 
 
-class ZCounter{
+class Ztimer{
     constructor(Object){
         Object.starttime ==undefined?this.starttime="0,0,0":this.starttime=Object.starttime;
         this.endtime=Object.endtime;
