@@ -1,4 +1,4 @@
-#ztimer
+# ztimer
 
 this timer in written in vanila javscript;
 
@@ -19,16 +19,14 @@ this timer in written in vanila javscript;
 <html>
     <body>
         <div id="ztimer"><div>
-
         <!--Add the scripts -->
-
-        <script src="/YourDirectory/ztimer.min.js"></script>
+        <script src="/ztimer.min.js"></script>
         <script>
-        let ztimer= new Ztimer({
+        new Ztimer({
                 starttime:'0,0,0',
                 endtime:'0,1,0',
                 selector:'#ztimer'
-            });
+        }).StartTimer();        
         </script>
     </body>
 </html>
