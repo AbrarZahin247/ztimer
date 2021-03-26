@@ -37,10 +37,10 @@ this timer in written in vanila javscript;
 > To create a timer for 1 minute.
 ```
 <script>
-    let ztimer= new Ztimer({
+    new Ztimer({
         endtime:'0,1,0',
         selector:'#ztimer'
-    });
+    }).StartTimer();    
 </script>
 ```
 1. > ##### Options
